@@ -5,7 +5,7 @@
     (no_connects 417)
     (area 18.555 23.2846 433.524001 173.301001)
     (thickness 1.6)
-    (drawings 1)
+    (drawings 2)
     (tracks 937)
     (zones 0)
     (modules 220)
@@ -66,7 +66,7 @@
     (grid_origin 381 88.9)
     (visible_elements 7FFFFFFF)
     (pcbplotparams
-      (layerselection 0x00f30_00000000)
+      (layerselection 0x00020_00000000)
       (usegerberextensions false)
       (excludeedgelayer true)
       (linewidth 0.100000)
@@ -9808,7 +9808,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CE55)
-    (at 271.4625 146.05)
+    (at 269.08125 146.05)
     (path /5BC10CB8/5BC11B70)
     (attr virtual)
     (fp_text reference S60 (at -4.572 5.334) (layer F.SilkS)
@@ -9880,7 +9880,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CE62)
-    (at 266.7 165.1)
+    (at 264.31875 165.1)
     (path /5BC10CB8/5BC11C0E)
     (attr virtual)
     (fp_text reference S61 (at -4.572 5.334) (layer F.SilkS)
@@ -10240,7 +10240,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CEA3)
-    (at 290.5125 146.05)
+    (at 288.13125 146.05)
     (path /5BC10CB8/5BC129F3)
     (attr virtual)
     (fp_text reference S66 (at -4.572 5.334) (layer F.SilkS)
@@ -10600,7 +10600,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CEE4)
-    (at 309.5625 146.05)
+    (at 307.18125 146.05)
     (path /5BC10CB8/5BC12A90)
     (attr virtual)
     (fp_text reference S71 (at -4.572 5.334) (layer F.SilkS)
@@ -10672,7 +10672,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CEF1)
-    (at 301.625 165.1)
+    (at 295.275 165.1)
     (path /5BC10CB8/5BC12DC0)
     (attr virtual)
     (fp_text reference S72 (at -4.572 5.334) (layer F.SilkS)
@@ -10744,7 +10744,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CEFE)
-    (at 328.6125 165.1)
+    (at 323.85 165.1)
     (path /5BC10CB8/5BC12E89)
     (attr virtual)
     (fp_text reference S73 (at -4.572 5.334) (layer F.SilkS)
@@ -11104,7 +11104,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CF3F)
-    (at 328.6125 146.05)
+    (at 326.23125 146.05)
     (path /5BC10CB8/5BC12B30)
     (attr virtual)
     (fp_text reference S78 (at -4.572 5.334) (layer F.SilkS)
@@ -11464,7 +11464,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CF80)
-    (at 347.6625 146.05)
+    (at 345.28125 146.05)
     (path /5BC10CB8/5BC12BCB)
     (attr virtual)
     (fp_text reference S83 (at -4.572 5.334) (layer F.SilkS)
@@ -11536,7 +11536,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CF8D)
-    (at 357.1875 165.1)
+    (at 350.04375 165.1)
     (path /5BC10CB8/5BC12F45)
     (attr virtual)
     (fp_text reference S84 (at -4.572 5.334) (layer F.SilkS)
@@ -12112,7 +12112,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4CFF5)
-    (at 377.825 165.1)
+    (at 373.85625 165.1)
     (path /5BC10CB8/5BC12FF4)
     (attr virtual)
     (fp_text reference S92 (at -4.572 5.334) (layer F.SilkS)
@@ -12472,7 +12472,7 @@
   )
 
   (module Custom:CHERRY-MX-LED-Socket (layer F.Cu) (tedit 5BB55B50) (tstamp 5BC4D036)
-    (at 398.4625 165.1)
+    (at 397.66875 165.1)
     (path /5BC10CB8/5BC130B8)
     (attr virtual)
     (fp_text reference S97 (at -4.572 5.334) (layer F.SilkS)
@@ -12984,6 +12984,7 @@
     )
   )
 
+  (gr_line (start 409.575 164.2745) (end 409.575 167.767) (angle 90) (layer Dwgs.User) (width 0.2))
   (gr_line (start 234.0864 55.7784) (end 234.0864 56.1594) (angle 90) (layer Dwgs.User) (width 0.2))
 
   (segment (start 246.3238 29.0322) (end 246.3746 29.083) (width 0.25) (layer B.Cu) (net 1) (tstamp 58ED4878))
