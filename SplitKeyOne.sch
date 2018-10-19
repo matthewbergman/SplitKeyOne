@@ -41,6 +41,7 @@ LIBS:SparkFun-RF
 LIBS:SparkFun-Sensors
 LIBS:cherry-temp
 LIBS:custom
+LIBS:SplitKeyOne-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
@@ -686,8 +687,6 @@ Wire Wire Line
 Wire Wire Line
 	9800 1450 9900 1450
 Wire Wire Line
-	9900 1450 9900 1550
-Wire Wire Line
 	8200 1800 8200 1750
 Wire Wire Line
 	1550 2100 3250 2100
@@ -953,21 +952,21 @@ Text GLabel 8400 4150 0    60   Input ~ 0
 C8
 Text GLabel 8400 4550 0    60   Input ~ 0
 C12
-Text GLabel 8500 5150 0    60   Input ~ 0
-C13
-Text GLabel 8500 5250 0    60   Input ~ 0
-C14
-Text GLabel 8500 5350 0    60   Input ~ 0
-C15
-Text GLabel 8500 5450 0    60   Input ~ 0
-C16
-Text GLabel 8500 5550 0    60   Input ~ 0
-C17
-Text GLabel 8500 5650 0    60   Input ~ 0
-C18
-Text GLabel 8500 5750 0    60   Input ~ 0
-C19
 Text GLabel 8450 6250 0    60   Input ~ 0
+C13
+Text GLabel 8500 5750 0    60   Input ~ 0
+C14
+Text GLabel 8500 5650 0    60   Input ~ 0
+C15
+Text GLabel 8500 5550 0    60   Input ~ 0
+C16
+Text GLabel 8500 5450 0    60   Input ~ 0
+C17
+Text GLabel 8500 5350 0    60   Input ~ 0
+C18
+Text GLabel 8500 5250 0    60   Input ~ 0
+C19
+Text GLabel 8500 5150 0    60   Input ~ 0
 C20
 Text GLabel 8250 750  0    60   Input ~ 0
 MOSI
@@ -997,20 +996,22 @@ Wire Wire Line
 $Comp
 L GND #PWR09
 U 1 1 5BBF42FE
-P 9300 1750
-F 0 "#PWR09" H 9300 1500 50  0001 C CNN
-F 1 "GND" H 9300 1600 50  0000 C CNN
-F 2 "" H 9300 1750 50  0000 C CNN
-F 3 "" H 9300 1750 50  0000 C CNN
-	1    9300 1750
+P 9350 1750
+F 0 "#PWR09" H 9350 1500 50  0001 C CNN
+F 1 "GND" H 9350 1600 50  0000 C CNN
+F 2 "" H 9350 1750 50  0000 C CNN
+F 3 "" H 9350 1750 50  0000 C CNN
+	1    9350 1750
 	1    0    0    -1  
 $EndComp
-Wire Wire Line
-	9300 1750 9300 1700
 $Sheet
 S 4650 3400 1400 1500
 U 5BC10CB8
 F0 "right" 60
 F1 "right.sch" 60
 $EndSheet
+Wire Wire Line
+	9900 1450 9900 1500
+Wire Wire Line
+	9350 1600 9350 1750
 $EndSCHEMATC
