@@ -41,7 +41,6 @@ LIBS:SparkFun-RF
 LIBS:SparkFun-Sensors
 LIBS:cherry-temp
 LIBS:custom
-LIBS:SplitKeyOne-cache
 EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
