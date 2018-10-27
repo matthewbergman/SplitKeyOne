@@ -41,6 +41,7 @@ LIBS:SparkFun-RF
 LIBS:SparkFun-Sensors
 LIBS:cherry-temp
 LIBS:custom
+LIBS:SplitKeyOne
 LIBS:SplitKeyOne-cache
 EELAYER 25 0
 EELAYER END

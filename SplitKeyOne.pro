@@ -1,4 +1,4 @@
-update=17/02/28 19:50:45
+update=10/26/2018 11:03:22 AM
 version=1
 last_client=kicad
 [pcbnew]
@@ -71,3 +71,4 @@ LibName39=C:/Users/mbergman/ownCloud/tools/kicad/SparkFunConverted/SparkFun-RF
 LibName40=C:/Users/mbergman/ownCloud/tools/kicad/SparkFunConverted/SparkFun-Sensors
 LibName41=C:/Users/mbergman/ownCloud/tools/kicad/SparkFunConverted/cherry-temp
 LibName42=C:/Users/mbergman/ownCloud/tools/kicad/custom
+LibName43=libs/SplitKeyOne
